@@ -1,5 +1,6 @@
 import random
 import string
+import os
 
 def encode(word):
     # If the word has less than 3 characters, reverse it
@@ -24,6 +25,7 @@ def decode(word):
     return decoded_word
 
 if __name__ == '__main__':
+    os.system('cls')
     while True:
         option = input('Enter 1 to decode or 2 to encode: ')
         if option == '1':

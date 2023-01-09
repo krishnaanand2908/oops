@@ -13,6 +13,8 @@ def musicPlayer(file, stopper):
         if user_input == stopper:
             pygame.mixer.music.stop()
             break
+        elif user_input.lower() == 'q':
+            exit()
 
 def log(message):
     with open("MyActivityLog.txt", "a") as f:
@@ -23,9 +25,9 @@ if __name__ == "__main__":
     init_water = time.time()
     init_eyes = time.time()
     init_exercise = time.time()
-    waterSecs = 30*60
-    exerSecs = 35*60
-    eyeSecs = 40*60
+    waterSecs = 28*60
+    eyeSecs = 32*60
+    exerSecs = 38*60
     
     while True:
         if (time.time() - init_water) > waterSecs:
@@ -37,13 +39,13 @@ if __name__ == "__main__":
         if (time.time() - init_eyes) > eyeSecs:
             print(fnt.apply("Eyes Relaxation time. Enter 'done' to stop the alarm.", "green/bold"))
             musicPlayer('eyes.mp3', 'done')
-            init_water = time.time()
+            init_eyes = time.time()
             log("Eyes relaxed at")
             
         if (time.time() - init_exercise) > exerSecs:
             print(fnt.apply("Physical Activity time. Enter 'done' to stop the alarm.", "yellow/bold"))
             musicPlayer('exercise.mp3', 'done')
-            init_water = time.time()
+            init_exercise = time.time()
             log("Physical Activity done at")
         
 
