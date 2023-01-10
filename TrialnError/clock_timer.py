@@ -1,15 +1,16 @@
 import os
-import datetime
 import pygame
 import time
 import fontstyle as fnt
+
+#Timer
 
 def musicPlayer(file):
     pygame.mixer.init()
     pygame.mixer.music.load(file)
     pygame.mixer.music.play()
     while True:
-        user_input = input(fnt.apply('Press Enter to stop: '))
+        user_input = input(fnt.apply('Press Enter to stop: ', 'yellow/bold'))
         if user_input == '':
             pygame.mixer.music.stop()
             break
@@ -23,8 +24,9 @@ if __name__ == '__main__':
         second = int(input(fnt.apply('Input Second: ', 'blue/bold')))
         sec = (hour*60*60) + (minute*60) + (second)
         init_timer = time.time()
+        print(fnt.apply(f'A timer for {hour} hour(s), {minute} minute(s) and {second} second(s) has been set!', 'green/bold'))
         while True:
-            if (time.time() - init_timer) == sec:
+            if (time.time() - init_timer) >= sec:
                 musicPlayer('timer.mp3')
                 init_timer = time.time()
                 break
