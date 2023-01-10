@@ -1,5 +1,6 @@
 class Employee:
     no_of_leaves = 8
+    var = 8
     
     def __init__(self, aname, asalary, arole):
         self.name = aname
@@ -19,25 +20,32 @@ class Employee:
     
     @staticmethod
     def printgood(string):
-        print("This is good " + string)
+        print("This is good " + string)  
         
-class Programmer(Employee):
-    def __init__(self, name, salary, role, languages):
+class Player:
+    no_of_games = 4
+    var = 9
+    def __init__(self, name, game):
         self.name = name
-        self.salary = salary
-        self.role = role
-        self.languages = languages
-        
-    def printprog(self):
-        return f"Programmer's name is {self.name}. The salary is {self.salary}, role is {self.role} and "
+        self.game = game
 
+    def printdetails(self):
+        return f"The name is {self.name}. The game is {self.game}."
     
-    
+class CoolProgrammer(Player, Employee):
+    # var = 10
+    language = "C++"
+    def printlanguage(self):
+        print(self.language)
+      
 harry = Employee("Harry", 455, "Instructor")
 rohan = Employee("Rohan", 4554, "Student")
-# karan = Employee.from_dash("Karan-480-Student")
-shubham = Programmer.from_dash("Shubham-555-Programmer-['python']")
-karan= Programmer.from_dash("Karan-777-Programmer-['python']")
+    
+shubham = Player("Shubham", ["Cricket"])
 
-# harry.printgood('but kinda torturing.')
-print(karan.printprog())
+# karan = CoolProgrammer("Karan", 8999, "CoolProgrammer")
+karan = CoolProgrammer("Karan", ["Cricket"])
+# det = karan.printdetails()
+# print(det)
+# karan.printlanguage()
+print(karan.var)
