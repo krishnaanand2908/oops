@@ -9,3 +9,13 @@ Drank Water at 2023-01-10 14:19:58.838471
 Eyes relaxed at 2023-01-10 14:57:27.317809
 Physical Activity done at 2023-01-10 14:57:30.550205
 Drank Water at 2023-01-10 14:57:32.406021
+Drank Water at 2023-01-11 10:10:36.948210
+Eyes relaxed at 2023-01-11 10:14:35.580932
+Physical Activity done at 2023-01-11 10:43:51.324642
+Drank Water at 2023-01-11 10:43:53.229235
+Eyes relaxed at 2023-01-11 10:46:41.500879
+Drank Water at 2023-01-11 11:11:57.356819
+Eyes relaxed at 2023-01-11 11:18:45.148929
+Physical Activity done at 2023-01-11 11:21:55.692131
+Drank Water at 2023-01-11 11:40:02.060633
+Eyes relaxed at 2023-01-11 11:50:49.244012

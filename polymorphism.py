@@ -1,0 +1,3 @@
+# ABILITY TO TAKE VARIOUS FORMS
+print(5+6)
+print("5"+"6")
