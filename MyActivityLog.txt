@@ -19,3 +19,33 @@ Eyes relaxed at 2023-01-11 11:18:45.148929
 Physical Activity done at 2023-01-11 11:21:55.692131
 Drank Water at 2023-01-11 11:40:02.060633
 Eyes relaxed at 2023-01-11 11:50:49.244012
+Drank Water at 2023-01-11 12:54:34.173100
+Eyes relaxed at 2023-01-11 12:58:25.980196
+Physical Activity done at 2023-01-11 13:37:41.546578
+Drank Water at 2023-01-11 13:37:43.421154
+Eyes relaxed at 2023-01-11 13:37:45.966754
+Drank Water at 2023-01-11 14:05:49.803605
+Eyes relaxed at 2023-01-11 14:09:56.427437
+Physical Activity done at 2023-01-11 14:15:49.882959
+Drank Water at 2023-01-12 10:50:02.673920
+Eyes relaxed at 2023-01-12 10:54:00.833671
+Drank Water at 2023-01-13 10:23:42.325938
+Eyes relaxed at 2023-01-13 10:34:14.965758
+Physical Activity done at 2023-01-13 10:34:17.941453
+Drank Water at 2023-01-13 10:51:46.901723
+Eyes relaxed at 2023-01-13 11:06:20.565349
+Physical Activity done at 2023-01-13 11:12:24.758106
+Drank Water at 2023-01-13 11:19:52.906489
+Eyes relaxed at 2023-01-13 11:38:25.256224
+Drank Water at 2023-01-13 11:47:58.486878
+Physical Activity done at 2023-01-13 11:50:30.679587
+Drank Water at 2023-01-13 12:32:28.057348
+Eyes relaxed at 2023-01-13 12:36:32.263748
+Physical Activity done at 2023-01-13 12:42:26.825076
+Drank Water at 2023-01-13 13:00:33.322974
+Eyes relaxed at 2023-01-13 13:08:37.097792
+Physical Activity done at 2023-01-13 13:20:34.423583
+Drank Water at 2023-01-13 13:28:39.819074
+Eyes relaxed at 2023-01-13 13:40:40.907755
+Drank Water at 2023-01-13 13:56:44.938187
+Physical Activity done at 2023-01-13 13:59:13.385982
